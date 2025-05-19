@@ -43,10 +43,6 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.filter
 import org.koin.androidx.compose.koinViewModel
 
-/**
- * @author Ahmed Guedmioui
- */
-
 @Composable
 fun NewsScreenCore(
     viewModel: NewsViewModel = koinViewModel(),

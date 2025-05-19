@@ -6,10 +6,6 @@ import com.example.newsapp.core.data.remote.NewsListDto
 import com.example.newsapp.core.domain.Article
 import com.example.newsapp.core.domain.NewsList
 
-/**
- * @author Ahmed Guedmioui
- */
-
 fun NewsListDto.toNewsList(): NewsList {
     return NewsList(
         nextPage = nextPage,
